@@ -1,17 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView, StatusBar, Text } from 'react-native'
 import React from 'react'
 import { FONTS } from './src/constants/theme'
 
 const App = () => {
   return (
-    <View style={{ flex: 1, justifyContent: 'center' }}>
+    <SafeAreaView style={{ flex: 1, justifyContent: 'center' }}>
+      <StatusBar />
       <Text style={{ ...FONTS.largeTitle, textAlign: 'center' }}>
         HELLO STARTER TEMPLATE
       </Text>
-    </View>
+    </SafeAreaView>
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({})
