@@ -1,8 +1,8 @@
-import { SafeAreaView, StatusBar, Text, View } from 'react-native'
+import { SafeAreaView, StatusBar, Text, TouchableOpacity } from 'react-native'
 import Toast from 'react-native-toast-message'
 import React from 'react'
-import { COLORS, FONTS, SHADOW } from './src/styles/theme'
-import { toastConfig } from './src/styles'
+import { FONTS } from './src/styles/theme'
+import { toast } from './src/services'
 
 const App = () => {
   return (
@@ -12,8 +12,10 @@ const App = () => {
         HELLO STARTER TEMPLATE
       </Text>
 
-      <View style={{ height: 300, width: 300, ...SHADOW.strong }}></View>
-      <Toast config={toastConfig} ref={(ref) => Toast.setRef(ref)} />
+      <TouchableOpacity onPress={() => toast.success('Welcome to the starter template.')}>
+        <Text>Hey</Text>
+      </TouchableOpacity>
+      <Toast />
     </SafeAreaView>
   )
 }

@@ -153,12 +153,12 @@ export const SHADOW = {
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 4,
     },
-    shadowOpacity: 0.23,
-    shadowRadius: 2.62,
+    shadowOpacity: 0.2,
+    shadowRadius: 3.84,
 
-    elevation: 4,
+    elevation: 2,
   },
   strong: {
     shadowColor: '#000',
@@ -169,7 +169,7 @@ export const SHADOW = {
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
 
-    elevation: 5,
+    elevation: 4,
   },
   light: {
     shadowColor: '#000',
@@ -180,7 +180,7 @@ export const SHADOW = {
     shadowOpacity: 0.22,
     shadowRadius: 2.22,
 
-    elevation: 3,
+    elevation: 1,
   },
 }
 
