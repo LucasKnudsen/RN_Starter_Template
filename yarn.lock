@@ -5685,6 +5685,11 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-clean-project@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-clean-project/-/react-native-clean-project-4.0.1.tgz#c0e2b17eebf32a683aa67da45fe7932857166da7"
+  integrity sha512-B7rXdFC4bfA+Vv7lZ9bKS6cUDgqg04OR5D69sNnhheFBJQ1V04cIfJ1Fu0sbqRsIehqlOcySQRpp8tm7r7PvLQ==
+
 react-native-cli@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/react-native-cli/-/react-native-cli-2.0.1.tgz"
@@ -5709,6 +5714,11 @@ react-native-gradle-plugin@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
+
+react-native-toast-message@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/react-native-toast-message/-/react-native-toast-message-2.1.5.tgz#550acb9c6c0f1ee49c6b57b65a56d34e297eb723"
+  integrity sha512-mk3rELtBEhrhWBCN6CTaw0gypgL9ZNauX3xx1LUs4uee9vc0pVsghrKxO57vroUCcNL2hDeZSLJWdQNMCkGeaQ==
 
 react-native@0.68.2:
   version "0.68.2"
